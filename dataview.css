@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+  font-family: "Helvetica", sans-serif;
+  background-color: #fdfdfd;
+}
+
+header, div, button {
+  box-sizing: border-box;
+  color: #555;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  box-shadow: 0px -1px 10px 0px #ccc;
+  text-align: center;
+  padding: 20px;
+}
+
+#nav, #colors {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-element {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border: 1px solid #eee;
+  margin: 0px 5px;
+  outline: none;
+  font-size: 16pt;
+}
+
+.nav-element:hover {
+  background-color: #fafefa;
+  border-color: #acdfad;
+}
+
+.nav-element.selected {
+  border-width: 2px;
+  border-color: #5cbe5d;
+  background-color: #e7f4e7;
+}
+
